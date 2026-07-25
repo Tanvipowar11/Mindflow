@@ -1,27 +1,27 @@
-# Mindflow
+# 🧠 Mindflow
 
 An AI-powered chat/dashboard application with a React + TypeScript frontend and a Node.js + GraphQL backend, featuring real-time messaging and AI responses.
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 **Frontend**
-- React 19 + TypeScript
-- Vite
-- Apollo Client (GraphQL)
-- Zustand (state management)
-- Tailwind CSS
-- React Router
-- Vitest + Cypress (testing)
+- ⚛️ React 19 + TypeScript
+- ⚡ Vite
+- 🔗 Apollo Client (GraphQL)
+- 🐻 Zustand (state management)
+- 🎨 Tailwind CSS
+- 🧭 React Router
+- 🧪 Vitest + Cypress (testing)
 
 **Backend**
-- Node.js + Express + TypeScript
-- Apollo Server (GraphQL) + WebSockets (subscriptions)
-- MongoDB (Mongoose)
-- JWT authentication (bcrypt + jsonwebtoken)
-- Anthropic SDK & Groq SDK (AI integration)
-- Jest (testing)
+- 🟢 Node.js + Express + TypeScript
+- 🔗 Apollo Server (GraphQL) + WebSockets (subscriptions)
+- 🍃 MongoDB (Mongoose)
+- 🔐 JWT authentication (bcrypt + jsonwebtoken)
+- 🤖 Anthropic SDK & Groq SDK (AI integration)
+- 🧪 Jest (testing)
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 mindflow-final/
@@ -40,20 +40,20 @@ mindflow-final/
         └── server.ts
 ```
 
-## Getting Started
+## 🚀 Getting Started
 
-### Prerequisites
+### ✅ Prerequisites
 - Node.js (v18+ recommended)
 - MongoDB instance (local or Atlas)
 - API keys for Anthropic and/or Groq
 
-### 1. Clone the repo
+### 1️⃣ Clone the repo
 ```bash
 git clone https://github.com/Tanvipowar11/Mindflow.git
 cd Mindflow/mindflow-final
 ```
 
-### 2. Backend setup
+### 2️⃣ Backend setup
 ```bash
 cd backend
 npm install
@@ -75,7 +75,7 @@ Run the backend:
 npm run dev
 ```
 
-### 3. Frontend setup
+### 3️⃣ Frontend setup
 ```bash
 cd ../frontend
 npm install
@@ -92,31 +92,31 @@ Run the frontend:
 npm run dev
 ```
 
-## Available Scripts
+## 📜 Available Scripts
 
 **Backend** (`backend/`)
 | Command | Description |
 |---|---|
-| `npm run dev` | Start dev server with hot reload |
-| `npm run build` | Compile TypeScript |
-| `npm start` | Run compiled build |
-| `npm test` | Run Jest tests |
-| `npm run test:coverage` | Run tests with coverage report |
+| `npm run dev` | 🔄 Start dev server with hot reload |
+| `npm run build` | 🏗️ Compile TypeScript |
+| `npm start` | ▶️ Run compiled build |
+| `npm test` | ✅ Run Jest tests |
+| `npm run test:coverage` | 📊 Run tests with coverage report |
 
 **Frontend** (`frontend/`)
 | Command | Description |
 |---|---|
-| `npm run dev` | Start Vite dev server |
-| `npm run build` | Build for production |
-| `npm run preview` | Preview production build |
-| `npm test` | Run Vitest tests |
-| `npm run cypress` | Open Cypress test runner |
+| `npm run dev` | 🔄 Start Vite dev server |
+| `npm run build` | 🏗️ Build for production |
+| `npm run preview` | 👀 Preview production build |
+| `npm test` | ✅ Run Vitest tests |
+| `npm run cypress` | 🧪 Open Cypress test runner |
 
-## Features
-- User authentication (JWT-based)
-- Real-time chat via GraphQL subscriptions / WebSockets
-- AI-powered responses (Anthropic & Groq integration)
-- Markdown rendering with syntax-highlighted code blocks in chat
+## ✨ Features
+- 🔐 User authentication (JWT-based)
+- 💬 Real-time chat via GraphQL subscriptions / WebSockets
+- 🤖 AI-powered responses (Anthropic & Groq integration)
+- 📝 Markdown rendering with syntax-highlighted code blocks in chat
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
